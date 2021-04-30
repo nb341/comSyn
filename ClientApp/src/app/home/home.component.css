@@ -1,0 +1,12 @@
+.product{
+    height: 25%;
+    background-color: #fff;
+    margin: 25px;
+    padding: 5px;
+}
+
+.product-card{
+    height: 100%;
+    width: 250px;
+    background-color: bisque;
+}

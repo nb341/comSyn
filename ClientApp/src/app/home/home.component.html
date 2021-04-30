@@ -1,0 +1,35 @@
+<div class="">
+<div class="jumbotron jumbotron-fluid">
+    <p class="lead col-lg-7">
+      Need a computer. Here at ComSyn we aim to provide all your computing needs. From prebuilt Desktop and Laptop PCs to fully
+      Customizable desktops together with accessories. Whether for gaming, school or work we provide. 
+    </p>
+    <div class="input-group col-lg-4">
+      <input type="text" class="form-control" placeholder="Search for computer products" aria-label="search for products" aria-describedby="search button">
+      <div class="input-group-append">
+        <button class="btn dark-button" type="button">Search</button>
+      </div>
+    </div>
+</div>
+
+
+  <div id="gaming" class="product">
+    <div *ngIf="items">
+      <h5>Gaming picks</h5>
+      <hr/>
+    </div>
+  </div>
+  
+  <div id="work" class="product">
+    <div *ngIf="items">
+      <h5>Work picks</h5>
+      <hr/>
+    </div>
+  </div>
+  <div id="student" class="product">
+    <div *ngIf="items">
+      <h5>Student picks</h5>
+      <hr/>
+    </div>
+  </div>
+</div>
