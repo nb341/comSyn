@@ -10,20 +10,38 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 
 import { ItemService } from './services/item.service';
+import { LoginComponent } from './login/login.component';
+import { ShopComponent } from './shop/shop.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { RegisterComponent } from './register/register.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    LoginComponent,
+    ShopComponent,
+    AboutComponent,
+    ContactComponent,
+    RegisterComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     HttpClientModule,
     FormsModule,
     RouterModule.forRoot([
-      { path: '', component: HomeComponent, pathMatch: 'full' }
+      { path: '', component: HomeComponent, pathMatch: 'full' },
+      { path: 'login', component: LoginComponent, pathMatch: 'full' },
+      { path: 'register', component: RegisterComponent, pathMatch: 'full' },
+      { path: 'about-us', component: AboutComponent, pathMatch: 'full' },
+      { path: 'contact-us', component: ContactComponent, pathMatch: 'full' },
+      { path: 'shop', component: ShopComponent, pathMatch: 'full' },
+      { path: 'search', component: SearchComponent }
     ])
   ],
   providers: [ItemService],

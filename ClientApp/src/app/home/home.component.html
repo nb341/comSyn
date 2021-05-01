@@ -20,6 +20,11 @@
     <div *ngIf="items">
       <h5>Gaming picks</h5>
       <hr/>
+      <div class="d-md-flex justify-content-between">
+        <div *ngFor="let item of items">
+          <img height="240" width="240" src="assets/images/laptop.jpg" alt={{item.name}}/>
+        </div>
+      </div>
     </div>
   </div>
   
@@ -28,6 +33,11 @@
     <div *ngIf="items">
       <h5>Work picks</h5>
       <hr/>
+      <div class="d-md-flex justify-content-between">
+        <div *ngFor="let item of items">
+          <img height="240" width="240" src="assets/images/laptop.jpg" alt={{item.name}}/>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -36,6 +46,11 @@
     <div *ngIf="items">
       <h5>Student picks</h5>
       <hr/>
+      <div class="d-md-flex justify-content-between">
+        <div *ngFor="let item of items">
+          <img height="240" width="240" src="assets/images/laptop.jpg" alt={{item.name}}/>
+        </div>
+      </div>
     </div>
   </div>
 </div>
