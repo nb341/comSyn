@@ -29,3 +29,17 @@ ComSyn is a computer store that aims to recommend and sell laptops to gamers, st
 * Allow admin to add top picks of products for all the categories.
 ## Non-functional Requirements:-
 * This is make believe, use your imagination.
+
+## User Stories:
+ 1. (Tasks: Backend) As an admin:
+  a) I can login using my email address and password, and be redirected to the admin panel.
+  b) I can add new products to the inventory listing as well as the quantity in the inventory.
+  c) I can update the quantity of a product already in inventory.
+  d) I can update the quantity of a product that has previously been in inventory but is out of stock.
+  e) I can select products in inventory to be ComSyn top picks for gaming, work, or school (i.e gamers, workers/business, students), miscellaneous use.
+  f) I can change the top picks to something else.
+  g) I can remove products from the list of products for sale without deleting them.
+  h) I can update the product attributes (name, description, price etc).
+  i) I can view a list of all products, along with their status (displayed, out of stock, no longer available etc).
+  j) I can permanently delete a product.
+
