@@ -32,7 +32,7 @@ ComSyn is a computer store that aims to recommend and sell laptops to gamers, st
 
 ### User Stories:
  1. (Tasks: Backend) As an admin:
-  + I can login using my email address and password, and be redirected to the admin panel.
+  > + I can login using my email address and password, and be redirected to the admin panel.
   + I can add new products to the inventory listing as well as the quantity in the inventory.
   + I can update the quantity of a product already in inventory.
   + I can update the quantity of a product that has previously been in inventory but is out of stock.
