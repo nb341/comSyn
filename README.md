@@ -138,5 +138,6 @@ ComSyn is a computer store that aims to recommend and sell laptops to gamers, st
 12. Click on the product in the grid and I am taken to the product page and shown all its information.
 13. From the proceed to checkout page, click checkout and I am taken to the payment gateway to enter my credit card information.
 
+#### Requirements Validation - Use Cases
 
-
+[![Use Case register users](uml_diagrams/USE_CASE_REGISTRATION.png)](https://github.com/nb341/)
